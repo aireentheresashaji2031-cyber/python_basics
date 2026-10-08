@@ -1,39 +1,50 @@
-# Mini AI Documentation Project — Module 1
+# Student Grade Calculator
 
-## Aim
-Use AI to prepare professional documentation.
+## Description
 
-## Problem Statement
-Prepare documentation for installing Python.
+Student Grade Calculator is a beginner Python project used to calculate a student's grade based on marks.
 
-## Project Overview
-This project demonstrates how AI can be used to generate clear, structured, and professional technical documentation. The chosen topic is **Python installation**, covering everything a beginner needs — from prerequisites to troubleshooting.
+## Features
 
-## Folder Structure
+- Accepts student marks.
+- Calculates the student's grade.
+- Displays the grade.
 
+## Requirements
+
+- Python
+
+## Installation
+
+1. Install Python.
+2. Create the project folder `AI_Student_Project`.
+3. Add the Python program to the project folder.
+4. Run the program using Python.
+
+## Usage
+
+1. Open the Student Grade Calculator program.
+2. Enter the student's marks.
+3. Run the program.
+4. The calculated grade will be displayed.
+
+## Example
+
+```text
+Enter student marks: 78
+Grade: C
 ```
-Module1_Project/
+
+## Project Structure
+
+```text
+AI_Student_Project/
 │
-├── Introduction.md     → Introduction & Software Requirements
-├── Installation.md     → Installation Steps, Verification Steps, Troubleshooting, Conclusion
-├── FAQ.md               → Frequently Asked Questions
-├── Images/              → Screenshots/diagrams referenced in the docs (add as needed)
-└── README.md            → This file (project overview & index)
+├── student_grade_calculator.py
+└── README.md
 ```
 
-## How to Use This Documentation
+## Future Improvements
 
-1. Start with **Introduction.md** to understand the purpose and requirements.
-2. Follow **Installation.md** for step-by-step installation, verification, and troubleshooting instructions for Windows, macOS, and Linux.
-3. Check **FAQ.md** for quick answers to common questions.
-4. Place any relevant screenshots (e.g., installer screens, terminal output) inside the **Images/** folder and reference them in the Markdown files using:
-   ```markdown
-   ![Description](Images/your-image.png)
-   ```
-
-## Tools Used
-- AI (Claude) was used to generate and structure the content of this documentation.
-- Content was organized into Markdown (`.md`) files for portability and easy conversion to PDF/Word/HTML if needed.
-
-## Author Notes
-This documentation set can be adapted for other software installation guides by following the same structure: Introduction → Requirements → Installation → Verification → Troubleshooting → FAQ → Conclusion.
+- Improve the grade calculation.
+- Add more options for students.
